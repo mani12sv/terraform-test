@@ -4,7 +4,6 @@ instance_type = var.instancetype
 subnet_id = var.subnet
 vpc_security_group_ids= var.vpc-sg
 key_name = var.key
-region = "ap-southeast-1"
 disable_api_termination =false
 
 tags = {
